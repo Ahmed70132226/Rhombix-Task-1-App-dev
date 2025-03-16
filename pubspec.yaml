@@ -1,0 +1,24 @@
+name: college_alert_app
+description: A College Alert Android app that notifies users about campus events.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjust the SDK version based on your Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^14.0.0  # For local notifications
+  http: ^1.3.0  # For fetching events from an API (optional)
+  provider: ^6.0.0  # For state management (optional)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
